@@ -1,0 +1,59 @@
+.team-section {
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #0c161e;
+}
+
+.team-headline {
+    margin-bottom: 80px;
+}
+
+.team-headline h4 {
+    line-height: 29px;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.team-headline h4 span {
+    font-weight: 700;
+}
+
+.team-headline p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #9EC6D8;
+    font-weight: 300;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.card {
+    background-color: #101c26;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
+}
+
+.card .avatar {
+    margin-bottom: 30px;
+}
+
+.card img {
+    max-width:80%;
+}
+
+.card h5 {
+    color: #ffffff;
+}
+
+.card p {
+    color: #9EC6D8;
+}
