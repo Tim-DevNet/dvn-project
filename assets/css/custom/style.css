@@ -34,27 +34,31 @@
     border-radius: 50%;
 }
 
-.avatar-overlay {
-    position: relative;
+.card .avatar .text-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 180px 30px;
+    border-bottom-right-radius: 180px 30px;
+    box-shadow: 0px 10px 10px -10px #7100B7;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
 }
 
-.avatar-overlay:after {
-    text-align: left;
-    content:"Tim \A\A - Experience in web development \A - Likes to read papers \A - Picking his nose until it starts to bleed";
-    white-space: pre;
-    font-size: 18px;
-    
-    color:#fff;
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+.card .avatar:hover div.text-content {
+  opacity: 1;
 }
-.avatar-overlay:hover:after {
-    opacity:1;
+
+div.text-content ul {
+    text-align: left;
+    font-size: 16px;
 }
 
 .card {
@@ -62,10 +66,12 @@
     max-width: 300px;
     margin: 0 auto;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
 }
 
 .card .avatar {
+    position: relative;
     padding: 30px;
 }
 
