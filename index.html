@@ -24,6 +24,10 @@
     <!-- Custom CSS -->
     <link href="assets/css/custom/theme.css" rel="stylesheet">
     <link href="assets/css/custom/colors.css" rel="stylesheet">
+    <link href="assets/css/custom/timeline.css" rel="stylesheet">
+
+    <script src="assets/js/libraries/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/custom/timeline.js?v=1.0.0.1"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +47,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <header>
     <div id="st-logo">
         <a href="#0">
-            <img src="assets/images/logo-normal.png" alt="Logo">
+            <img src="assets/images/dvn-logo-white.svg" alt="Logo" class="dvn-logo">
         </a>
     </div>
 </header>
@@ -89,15 +93,14 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <div class="col-lg-12">
 
                 <div id="particles-js"></div>
-
+                <h3 class="first-headline">Welcome to</h3>
                 <div class="headlines-wrapper">
                     <span class="skilltechtypetext">
                         <span class="typed-cursor">|</span>
                     </span>
                 </div>
-                <!-- /.headlines-wrapper -->
-                <h3 class="first-headline">The Coolest Modern HTML Theme is Here!</h3>
-                <h3 class="second-headline">Welcome to <span>Particle</span> by SkillTech</h3>
+                <h3 class="second-headline">People. <span>Collaboration.</span> Profit.</h3>
+                <h3 class="c2a"><a class="page-scroll" href="#big-image">&there4;</a></h3>
 
             </div>
             <!-- /.col-lg-12 -->
@@ -432,6 +435,48 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 </section>
 <!-- /.service-section -->
 
+<!-- Roadmap Section
+================================================== -->
+
+    
+<section id="call-to" class="call-to-section">
+
+        <div class="call-to-layer"></div>
+    
+        <div class="container-full">
+    
+            <div class="row">
+    
+                <div class="col-md-12">
+                    <h3 class="wow fadeIn animated">Project <span>Roadmap</span></h3>
+                    <p class="wow fadeIn animated">Developed with the community</p>
+
+                    <div id="demo_3_container"></div>
+
+             
+    <script>
+        var line3 = $.UDNZTimeline({
+            "data_url": "data/branches.json",
+            "container": {
+                "id": "demo_3_container",
+                "height": 350
+            },
+            "effect": $.DEFINED_EFFECT_TYPE.rotateY | $.DEFINED_EFFECT_TYPE.slide
+        }).Draw().ShowNode('node_5', 500);
+    </script>
+
+                   
+                </div>
+                <!-- /.col-md-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.roadmap-section -->
+
+
+
 <!-- Call To Action Section
 ================================================== -->
 <section id="call-to" class="call-to-section">
@@ -672,7 +717,9 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <!-- Scripts
 ================================================== -->
 <!-- jQuery -->
+
 <script src="assets/js/libraries/jquery-2.2.4.js"></script>
+
 
 <!-- Bootstrap Core JavaScript -->
 <script src="assets/js/libraries/bootstrap.js"></script>
@@ -686,7 +733,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <script src="assets/js/libraries/jquery.counterup.js"></script>
 <!-- Custom Particle Theme JavaScript -->
 <script>
-    var sentences = ["This is The Particle Theme", "Click on the live effect!", "Coolest Modern HTML Theme"];
+    var sentences = ["The Developer Network Project.", "An Innovative Form of Q&A.", "An Aspiring Crypto Project."];
 </script>
 <script src="assets/js/custom/particle-theme-dark.js"></script>
 </body>

@@ -3,6 +3,7 @@
 
 /* primary color */
 .hero-section-2 .second-headline span,
+.hero-section-2 .c2a a,
 .hero-section-video-dark .second-headline span,
 .hero-section-yt-dark .second-headline span,
 .about-icons li .icon .material-icons,
@@ -16,7 +17,7 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
-    color: #9600f4;
+    color: #3ec7f3;
 }
 
 .social-icons li a:hover,
