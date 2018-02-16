@@ -1437,8 +1437,18 @@ header #st-logo img {
     font-weight: 700;
 }
 
-/* 11. Contact Section
+/* 11. Exchanges Section
 --------------------------------- */
+
+.contact-paragraph {
+    line-height: 26px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .contact-section {
     height: 830px;
     padding-top: 60px;
