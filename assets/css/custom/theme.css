@@ -53,6 +53,48 @@ a:focus {
   }
 
 
+/* Contribute
+--------------------------------- */
+.border-contribute {
+    border-radius: 10px;
+    border: 2px solid #47b475;
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 600px;
+    color: white;
+    padding: 15px 10px;
+}
+
+.hero-section-2 .c-zero-headline {
+    top: 270px;
+}
+
+.hero-section-2 .c-zero-first-headline {
+    top: 320px;
+    font-size: 25px;
+}
+
+.hero-section-2 .c-headlines-wrapper {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 430px;
+}
+
+.hero-section-2 .c-first-headline {
+    top: 475px;
+    font-size: 25px;
+}
+
+.hero-section-2 .c-second-headline {
+    font-size: 18px;
+    top: 530px;
+}
 
 
 
