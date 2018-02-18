@@ -2510,6 +2510,7 @@ footer p a {
       margin-left: 0;
     }
     .center-mobile {
+        padding-top:25px;
         text-align:center;
     }
 
