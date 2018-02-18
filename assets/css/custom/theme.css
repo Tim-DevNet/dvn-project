@@ -2459,6 +2459,16 @@ footer p a {
     transition: all .4s ease 0s;
 }
 
+
+/* Grab DVN Section
+--------------------------------- */
+
+.image-section button {
+    margin: 0 15px 0 15px;
+}
+
+
+
 /* 15. Media Queries
 --------------------------------- */
 @media only screen and (max-width: 1200px) {
@@ -2505,7 +2515,6 @@ footer p a {
     }
 
     .image-section {
-        height: 470px;
         background-size: cover;
         padding-top: 120px;
         padding-bottom: 180px;
@@ -2657,7 +2666,7 @@ footer p a {
     }
 
     .image-section .btn-lg {
-        width: 140px;
+        width: 150px;
     }
 
     .our-work-section .see-work h2 {
