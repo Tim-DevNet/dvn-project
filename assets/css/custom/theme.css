@@ -2986,6 +2986,11 @@ footer p a {
         width:75%;
         padding-bottom:15px;
     }
+    
+    .token-addr {
+        font-size:12px;
+    }
+
     header #st-logo img {
         width: 250px;
     }
