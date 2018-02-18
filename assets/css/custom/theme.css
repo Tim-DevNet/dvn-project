@@ -119,7 +119,17 @@ hr {
     top: 550px;
 }
 
+#token-section {
+    height: auto;
+}
 
+.about, .about-text, .about-section {
+    height: auto !important;
+}
+
+.img-width {
+    width:100%;
+}
 
 /* 1.8. Project Goal
 --------------------------------- */
@@ -2463,7 +2473,7 @@ footer p a {
 --------------------------------- */
 @media only screen and (max-width: 1200px) {
     header .dvn-logo {
-        width: 300px;
+        width: 250px;
         margin-top: 15px;
     }
     
@@ -2472,7 +2482,7 @@ footer p a {
     }
 
     .hero-section-2 .headlines-wrapper {
-        top: 280px;
+        top: 360px;
     }
 
     .hero-section-2 .headlines-wrapper .typed-cursor {
@@ -2485,13 +2495,25 @@ footer p a {
         line-height: 70px;
     }
 
+    .mobile {
+      text-align:center;  
+      margin-left: 0;
+    }
+    .no-mobile {
+        display:none;
+    }
+
+    .img-width {
+        width:50%;
+    }
+
     .hero-section-2 h3 {
         line-height: 40px;
         font-size: 33px;
     }
 
     .hero-section-2 .first-headline {
-        top: 370px;
+        top: 280px;
     }
 
     .hero-section-2 .second-headline {
@@ -2951,21 +2973,25 @@ footer p a {
 }
 
 @media only screen and (max-width: 767px) {
+    .img-width {
+        width:75%;
+        padding-bottom:15px;
+    }
     header #st-logo img {
         width: 250px;
     }
 
     .hero-section-2 .headlines-wrapper {
-        top: 120px;
+        top: 220px;
     }
 
     .hero-section-2 .headlines-wrapper .typed-cursor {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 28px;
     }
 
     .hero-section-2 .skilltechtypetext {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 40px;
     }
 
@@ -2977,11 +3003,11 @@ footer p a {
     }
 
     .hero-section-2 .first-headline {
-        top: 180px;
+        top: 165px;
     }
 
     .hero-section-2 .second-headline {
-        top: 240px;
+        top: 260px;
     }
 
     .hero-section-2 .c2a {
