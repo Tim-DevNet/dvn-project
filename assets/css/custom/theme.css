@@ -2509,8 +2509,8 @@ footer p a {
       text-align:center;  
       margin-left: 0;
     }
-    .no-mobile {
-        display:none;
+    .center-mobile {
+        text-align:center;
     }
 
     .img-width {
