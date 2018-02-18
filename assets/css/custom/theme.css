@@ -171,6 +171,9 @@ hr {
 }
 
 
+.width-100 {
+    width:85%;
+}
 
 /* 1.9. Roadmap
 --------------------------------- */
@@ -2984,6 +2987,10 @@ footer p a {
 
 @media only screen and (max-width: 767px) {
 
+
+.width-100 {
+    width:100%;
+}
 
 .border-contribute {
     border-radius: 10px;
