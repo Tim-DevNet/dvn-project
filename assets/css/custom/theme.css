@@ -901,6 +901,10 @@ header #st-logo img {
     margin-top: 25px;
 }
 
+.image-section button {
+    margin: 0 15px 0 15px;
+}
+
 /* Sweep To Right */
 .image-section .hvr-sweep-to-right {
     display: inline-block;
@@ -2471,16 +2475,6 @@ footer p a {
     -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
 }
-
-
-/* Grab DVN Section
---------------------------------- */
-
-.image-section button {
-    margin: 0 15px 0 15px;
-}
-
-
 
 /* 15. Media Queries
 --------------------------------- */
