@@ -1132,7 +1132,7 @@ header #st-logo img {
     height: auto;
     text-align: center;
     background: #0c161e;
-    padding-bottom: 175px;
+    padding-bottom: 100px;
 
 }
 
@@ -2983,13 +2983,57 @@ footer p a {
 }
 
 @media only screen and (max-width: 767px) {
+
+
+.border-contribute {
+    border-radius: 10px;
+    border: 3px solid #14d867;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 100%x;
+    color: white;
+    padding: 10px 10px;
+}
+
+.hero-section-2 .c-zero-headline {
+    top: 130px;
+}
+
+.hero-section-2 .c-zero-first-headline {
+    top: 170px;
+    font-size: 18px;
+}
+
+.hero-section-2 .c-headlines-wrapper {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 265px;
+}
+
+.hero-section-2 .c-first-headline {
+    top: 300px;
+    font-size: 16px;
+}
+
+.hero-section-2 .c-second-headline {
+    font-size: 10px;
+    top: 345px;
+}
+
+
     .img-width {
         width:75%;
         padding-bottom:15px;
     }
     
     .token-addr {
-        font-size:12px;
+        font-size:11px;
     }
 
     header #st-logo img {
