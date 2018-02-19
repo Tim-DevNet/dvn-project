@@ -192,7 +192,12 @@ hr {
 
 .device-container {
     max-width:275px;
+    margin: auto;
 }
+.device-container img {
+    width: 100%;
+}
+
 
 
 
