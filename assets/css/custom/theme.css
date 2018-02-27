@@ -2511,7 +2511,7 @@ footer p a {
 
 /* 15. Media Queries
 --------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1370px) {
     header .dvn-logo {
         width: 250px;
         margin-top: 15px;
@@ -2697,11 +2697,11 @@ footer p a {
     }
 
     .hero-section-2 .first-headline {
-        top: 340px;
+        top: 300px;
     }
 
     .hero-section-2 .second-headline {
-        top: 400px;
+        top: 420px;
     }
 
     .image-section {
@@ -2834,7 +2834,7 @@ footer p a {
 
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
     #st-nav ul {
         margin-bottom: 0;
         padding-left: 0;
@@ -2867,7 +2867,7 @@ footer p a {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
     header {
         height: 100px;
     }
@@ -3285,15 +3285,15 @@ footer p a {
 
 @media only screen and (max-width: 590px) and (min-width: 481px) {
     .hero-section-2 .headlines-wrapper {
-        top: 100px;
+        top: 220px;
     }
 
     .hero-section-2 .first-headline {
-        top: 130px;
+        top: 165px;
     }
 
     .hero-section-2 .second-headline {
-        top: 170px;
+        top: 260px;
     }
 
     .about-images .image-center {
