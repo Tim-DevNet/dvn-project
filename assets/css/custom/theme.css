@@ -92,11 +92,11 @@ hr {
 }
 
 .hero-section-2 .c-zero-headline {
-    top: 270px;
+    top: 250px;
 }
 
 .hero-section-2 .c-zero-first-headline {
-    top: 320px;
+    top: 300px;
     font-size: 25px;
 }
 
@@ -106,18 +106,30 @@ hr {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 430px;
+    top: 410px;
 }
 
 .hero-section-2 .c-first-headline {
-    top: 475px;
+    top: 455px;
     font-size: 25px;
 }
 
 .hero-section-2 .c-second-headline {
-    font-size: 18px;
+    font-size: 14px;
+    top: 510px;
+}
+
+.hero-section-2 .c-third-headline {
+    font-size: 21px;
     top: 550px;
 }
+
+.hero-section-2 .c-fourth-headline {
+    font-size: 16px;
+    top: 590px;
+    line-height: 30px;
+}
+
 
 #token-section {
     height: auto;
@@ -2554,13 +2566,25 @@ footer p a {
     }
 
     .hero-section-2 .first-headline {
-        top: 280px;
+        top: 240px;
     }
 
     .hero-section-2 .second-headline {
         margin-top: 5px;
-        top: 440px;
+        top: 400px;
     }
+
+    .hero-section-2 .c-third-headline {
+        font-size: 21px;
+        top: 550px;
+    }
+    
+    .hero-section-2 .c-fourth-headline {
+        font-size: 16px;
+        top: 590px;
+        line-height: 30px;
+    }
+    
 
     .hero-section-2 .c2a {
         font-size: 30px;
@@ -3002,6 +3026,36 @@ footer p a {
     .portfolio-useful-links {
         padding: 0 30px 24px;
     }
+
+    .hero-section-2 .c-zero-headline {
+        top: 110px;
+    }
+    
+    .hero-section-2 .c-zero-first-headline {
+        top: 150px;
+        font-size: 18px;
+    }
+    
+    .hero-section-2 .c-headlines-wrapper {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 240px;
+    }
+    
+    .hero-section-2 .c-first-headline {
+        top: 270px;
+        font-size: 16px;
+    }
+    .hero-section-2 .c-second-headline {
+        font-size: 10px;
+        top: 305px;
+    }
+    .hero-section-2 .c-third-headline {
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -3036,11 +3090,11 @@ footer p a {
 }
 
 .hero-section-2 .c-zero-headline {
-    top: 130px;
+    top: 110px;
 }
 
 .hero-section-2 .c-zero-first-headline {
-    top: 170px;
+    top: 150px;
     font-size: 18px;
 }
 
@@ -3050,19 +3104,24 @@ footer p a {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 265px;
+    top: 240px;
 }
 
 .hero-section-2 .c-first-headline {
-    top: 300px;
+    top: 260px;
     font-size: 16px;
 }
-
 .hero-section-2 .c-second-headline {
     font-size: 10px;
-    top: 345px;
+    top: 295px;
+}
+.hero-section-2 .c-third-headline {
+    display:none;
 }
 
+.hero-section-2 .c-fourth-headline {
+    display:none;
+}
 
     .img-width {
         width:75%;
